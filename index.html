@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>일민미술관</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon.ico">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <h1>
+      <a href="./index.html">
+        <img src="../image/login_logo.png" alt="logo" class="logo">
+        <img src="../image/login_logo_s.png" alt="logo_S" class="logo_s">
+        <span class="t_hidden">일민미술관</span>
+      </a>
+    </h1>
+
+    <nav>
+      <div class="tap">
+        <div class="bar"></div>
+        <p class="tap">OPEN</p>
+      </div>
+
+      <div class="menu_wrap">
+        <div class="tap_inner">
+          <div class="bar_inner"></div>
+          <p class="tap_text t2">CLOSE</p>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="./Art_Museum.html">About Ilmin</a>
+            <ul class="hover">
+              <li><a href="#">일민스토리</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./Exhibitions_Viewing.html">Exhibitions & Viewing</a>
+            <ul class="hover">
+              <li><a href="#">전시 및 관람</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./Artists.html">Artists</a>
+            <ul class="hover">
+              <li><a href="#">아티스트</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./IMA_Membership.html">IMA Membership</a>
+            <ul class="hover">
+              <li><a href="#">IMA 멤버십</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./Design_Store.html">Design Store</a>
+            <ul class="hover">
+              <li><a href="#">디자인 스토어</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="icon">
+      <a href="#" class="show1"><img src="../image/search_icon.svg" alt="search_icon"></a>
+      <a href="#" class="show2"><img src="../image/user_icon.svg" alt="user_icon"></a>
+
+      <a href="#" class="t_bar"><img src="../image/bar_icon.svg" alt="bar_icon"></a>
+
+      <a href="#" class="mobile"><img src="../image/search_icon_s.svg" alt="search_icon_s"></a>
+      <a href="#" class="mobile2"><img src="../image/bar_icon_s.svg" alt="bar_icon_s"></a>
+
+    </div>
+
+    <div class="menu_inner">
+      <div class="close">
+        <a href="#">
+          <img src="../image/close_icon.svg" alt="close_icon" class="c_w">
+          <img src="../image/close_icon_s.svg" alt="close_icon_s" class="c_m">
+        </a>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="./Art_Museum.html">About Ilmin</a>
+          <ul class="hover">
+            <li>
+              <a href="#">일민스토리</a>
+              <img src="../image/menu_inner1.jpg" alt="menu_inner1" class="img1">
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./Exhibitions_Viewing.html">Exhibitions & Viewing</a>
+          <ul class="hover">
+            <li>
+              <a href="#">전시 및 관람</a>
+              <img src="../image/menu_inner2.jpg" alt="menu_inner2" class="img2">
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./Artists.html">Artists</a>
+          <ul class="hover">
+            <li>
+              <a href="#">아티스트</a>
+              <img src="../image/menu_inner3.jpg" alt="menu_inner3" class="img3">
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./IMA_Membership.html">IMA Membership</a>
+          <ul class="hover">
+            <li>
+              <a href="#">IMA 멤버십</a>
+              <img src="../image/menu_inner4.jpg" alt="menu_inner4" class="img4">
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./Design_Store.html">Design Store</a>
+          <ul class="hover">
+            <li>
+              <a href="#">디자인 스토어</a>
+              <img src="../image/menu_inner5.jpg" alt="menu_inner5" class="img5">
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="search">
+      <div class="close">
+        <a href="#">
+          <img src="../image/close_icon.svg" alt="close_icon" class="close_icon">
+          <img src="../image/close_icon_s.svg" alt="close_icon_s" class="close_icon_s">
+        </a>
+      </div>
+    
+      <div class="box">
+        <label for="text">무엇을 찾으세요?</label>
+        <input type="text" id="text" name="text">
+        <a href="#">
+          <img src="../image/search_icon.svg" alt="search_icon" class="search_icon">
+          <img src="../image/search_icon_s.svg" alt="search_icon_s" class="search_icon_s">
+        </a>
+      </div>
+    </div>
+
+    <div class="login">
+      <div class="login_inner">
+        <a href="#"><img src="../image/login_logo.png" alt="login_logo" class="login_logo"></a>
+        <a href="#"><img src="../image/login_logo_s.png" alt="login_logo_s" class="login_logo_s"></a>
+
+        <form action="#">
+          <div class="flid">
+            <div class="id">
+              <label for="id">아이디 및 이메일</label>
+              <input type="text" id="id" name="id" required minlength="5" placeholder="아이디 및 이메일">
+            </div>
+            <div class="password">
+              <label for="password">비밀번호</label>
+              <input type="password" id="password" name="password" required minlength="8" placeholder="비밀번호">
+            </div>
+          </div>
+
+          <div class="flid2">
+            <div class="checbox_wrap">
+              <input type="checkbox" id="keep" name="keep">
+              <label for="keep">remember me</label>
+            </div>
+
+            <div class="find">
+              <span>아이디 찾기</span>
+              <span>비밀번호 찾기</span>
+            </div>
+          </div>
+
+          <button type="submit">LOGIN</button>
+
+          <div class="flid_b">
+            <p>아직 회원이 아니신가요?</p>
+            <span><a href="#">회원가입</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h2>ILMIN ART GALLERY</h2>
+    <div class="title">
+      <h2 class="h2_m">ILMIN <span>ART GALLERY</span></h2>
+    </div>
+    <div class="video">
+      <video src="../video/main_video.mp4" autoplay muted loop></video>
+    </div>
+  </main>
+  <!-- ////header -->
+
+  <!-- story -->
+  <section class="story">
+    <h2>
+      <a href="#">Ilmin Story</a>
+      <span class="t_hidden">일민스토리</span>
+    </h2>
+
+    <div class="box b1">
+      <div class="photo">
+        <figure>
+          <img src="../image/Main_Story_1.jpg" alt="Main_Store1">
+        </figure>
+        <div class="title t1">
+          <div class="line l1">
+          <a href="./Art_Museum.html">
+            <h5>일민미술관</h5>
+            <span class="t_hidden">일민미술관</span>
+            <img src="../image/next_icon.svg" alt="next_icon" class="next">
+            <img src="../image/next_icon_S.svg" alt="next_icon" class="next_s">
+          </a>
+            
+          </div>
+          <figure>
+            <img src="../image/Main_Story_2.jpg" alt="Main_Story_2">
+          </figure>
+        </div>
+      </div>
+
+      <p class="text">대한민국의 문화지형적 상징, 서울 광화문 광장 앞에 위치한 일민미술관은 1996년 개관 이래 예술적 실천이 삶을 풍요롭게 가꾼다는 믿음으로 다양한 전시활동을 전개해 왔습니다.
+        현대미술의 흐름을 읽어내는 중추적 역할을 수행하면서 국내외 미술계에서 주목 받는 동시대 미술관으로 활약하고 있습니다.</p>
+    </div>
+
+    <div class="box b2">
+      <p class="text">일민문화재단은 평생을 언론과 문화진흥에 헌신한 일민 김상만 선생의 유지를 기리기 위해 설립된 비영리 문화단체입니다.
+        일민문화재단은 참된 삶이란 문화와 예술의 가치를 소중히 여기는 사회에서 가능하다는 일민선생의 신념을 실현하기 위해 일민문화상(구 일민예술상), 일민미술관 운영 등을 통해 문화활동을 지원하고 문화의
+        사회적 기능을 실행하고자 노력하고 있습니다.</p>
+      <div class="photo">
+
+        <div class="title t2">
+          <div class="line l2">
+            <a href="#">
+              <h5>일민문화재단</h5>
+              <span class="t_hidden">일민문화재단</span>
+              <img src="../image/next_icon.svg" alt="next_icon" class="next">
+              <img src="../image/next_icon_s.svg" alt="next_icon" class="next_s">
+            </a>
+          </div>
+          <figure>
+            <img src="../image/Main_Story_3.jpg" alt="Main_Story_3">
+          </figure>
+        </div>
+
+        <figure class="Main_Story_4">
+          <img src="../image/Main_Story_4.jpg" alt="Main_Story_4">
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="exhibitions">
+    <h2>
+      <a href="#">Exhibitions & Viewing</a>
+      <span class="t_hidden">전시 및 관람</span>
+    </h2>
+
+    <div class="exhibitions_box">
+      <div class="box">
+        <figure>
+          <img src="../image/Main_Exhibitions1.jpg" alt="Main_Exhibitions1">
+        </figure>
+        <div class="text">
+          <h6>포에버리즘: 우리를 세상의 끝으로</h6>
+          <span>2024.4.12.(Fri) ~ 2024.6.23.(Sun)</span>
+        </div>
+      </div>
+
+      <div class="box2">
+        <div class="line">
+          <a href="./Exhibitions_Viewing.html">
+            <h5>FOREVERISM <br>
+              ENDLESS HORIZONS</h5>
+              <span class="t_hidden">FOREVERISM ENDLESS HORIZONS</span>
+              <img src="../image/next_icon.svg" alt="next_icon" class="next">
+              <img src="../image/next_icon_s.svg" alt="next_icon_S" class="next_s">
+            </a>
+        </div>
+        <figure>
+          <img src="../image/Main_Exhibitions2.jpg" alt="Main_Exhibitions2">
+        </figure>
+      </div>
+    </div>
+
+    <div class="exhibitions_box">
+      <div class="box b1">
+        <figure>
+          <img src="../image/Main_Exhibitions3.jpg" alt="Main_Exhibitions3">
+        </figure>
+        <h6 class="text">전다화 [나 같은 여자]</h6>
+      </div>
+      <div class="boxwrap">
+        <div class="box b2">
+          <figure>
+            <img src="../image/Main_Exhibitions4.jpg" alt="Main_Exhibitions4">
+          </figure>
+          <h6 class="text">윤영빈 [깨짐 모양 깨짐]</h6>
+        </div>
+        <p>그리움은 이 시대의 가장 큰 산업이다. 사회, 문화, 정치 전반의 영역에서 대중적인 인기를
+          끄는 대부분이 무언가를 그리워하는 감정과 연결된다.
+          소셜 플랫폼은 과거의 빛나는 순간을
+          오늘의 트래픽과 교환하고 아이돌 그룹은 지난 세기 팝 문화의 유산을 상속하기 위해 경쟁한다.</p>
+      </div>
+    </div>
+  </section>
+  <!-- ///exhibitions -->
+
+  <!-- artists -->
+  <section class="artists">
+    <h2>
+      <a href="#">Artists</a>
+      <span class="t_hidden">아티스트</span>
+    </h2>
+
+    <div class="artists_wrap">
+      <div class="photo2">
+        <div class="box">
+          <div class="line">
+            <a href="./Artists.html">
+              <h5>프로그램</h5>
+              <span class="t_hidden">프로그램</span>
+              <img src="../image/next_icon.svg" alt="next_icon" class="next">
+              <img src="../image/next_icon_s.svg" alt="next_icon_s" class="next_s">
+            </a>
+          </div>
+
+          <div class="photo">
+            <figure>
+              <img src="../image/Main_Artists1.jpg" alt="Main_Artists1">
+            </figure>
+            <div class="text">
+              <h6>역자후기 30: 그래프턴 태너 『포에버리즘』</h6>
+              <span>2024.6.20.(Thu) 7 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <figure class="artists_figure">
+          <img src="../image/Main_Artists2.jpg" alt="Main_Artists2">
+        </figure>
+      </div>
+
+      <div class="photo1">
+        <figure>
+          <img src="../image/Main_Artists3.jpg" alt="Main_Artists3">
+        </figure>
+        <p>이번 역자후기는 과거의 추억을 현재 그리고 미래에까지 연장시키려는 이 ‘산업’을 정확하게 이해하기 위해 ‘영원주의(foreverism)’와 ‘영원화(foreverize)’라는 개념을 살피고자
+          합니다.</p>
+      </div>
+    </div>
+
+    <div class="artists_wrap artists_w2">
+      <div class="photo1">
+        <figure>
+          <img src="../image/Main_Artists4.jpg" alt="Main_Artists4">
+        </figure>
+        <div class="text">
+          <h6>문주혜 × 일민미술관</h6>
+          <span>아티스트 토크─What’s my Box?</span>
+        </div>
+      </div>
+
+      <div class="photo2">
+        <div class="box photob1">
+          <figure class="Main_Artists5">
+            <img src="../image/Main_Artists5.jpg" alt="Main_Artists5">
+          </figure>
+          <div class="text">
+            <h6>최하늘 × 일민미술관</h6>
+            <span>아티스트 토크─What’s my IDOL?</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="line l2">
+            <a href="#">
+              <h5>아티스트 스토리</h5>
+              <span class="t_hidden">아티스트 스토리</span>
+              <img src="../image/next_icon.svg" alt="next_icon" class="next">
+              <img src="../image/next_icon_s.svg" alt="next_icon_s" class="next_s">
+            </a>
+          </div>
+
+          <div class="photo p2">
+            <figure class="Main_Artists6">
+              <img src="../image/Main_Artists6.jpg" alt="Main_Artists6">
+            </figure>
+            <div class="text">
+              <h6>권오상 × 일민미술관</h6>
+              <span>아티스트 토크─What’s my collection?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- ///artists -->
+
+  <!-- membership -->
+  <div class="membership">
+    <a href="./Art_Museum.html">
+      <h3>멤버십 가입하기</h3>
+      <span class="t_hidden">IMA 멤버십</span>
+      <p>다양한 혜택을 누려보세요</p>
+    </a>
+  </div>
+  <!-- ///membership -->
+
+  <!-- store -->
+  <section class="store">
+    <h2>
+      <a href="#">Design Store</a>
+      <span class="t_hidden">디자인 스토어</span>
+    </h2>
+
+    <div class="store_wrap">
+      <div class="box b1">
+        <a href="#">
+          <figure>
+            <img src="../image/Main_Store1.jpg" alt="Main_Store1">
+          </figure>
+          <h6 class="text">도래하지 않은 이들을 위한 노래 (LP)</h6>
+
+          <div class="overlay">
+            <h6>도래하지 않은 이들을 위한 노래 (LP)</h6>
+            <p>[도래하지 않은 이들을 위한 노래]는 일민미술관 《새일꾼 1948-2020: 여러분의 대표를 뽑아 국회로 보내시오》 전시 프로젝트의 일환으로 제작된 컴필레이션 앨범이다.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="box b2">
+        <a href="#">
+          <figure>
+            <img src="../image/Main_Store2.jpg" alt="Main_Store2">
+          </figure>
+          <h6 class="text">『크래시─기술·속도·미술시장을 읽는 열 시간』</h6>
+
+          <div class="overlay">
+            <h6>『크래시─기술·속도·미술시장을 읽는 열 시간』</h6>
+            <p>『크래시─기술·속도·미술시장을 읽는 열 시간』은 일민미술관이 2022년 개최한 강연 프로그램 〈인문학 썸머스쿨〉을 재구성한 책입니다. </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+      <div class="store_wrap w2">
+        <div class="botton">
+          <div class="w_line">
+            <a href="./Design_Store.html">BUY NOW!</a>
+          </div>
+          <div class="bg_purple"></div>
+        </div>
+
+        <div class="box_wrap">
+          <div class="box b3">
+            <a href="#">
+              <figure>
+                <img src="../image/Main_Store3.jpg" alt="Main_Store3">
+              </figure>
+              <h6 class="text">『퀸 베이비』</h6>
+
+              <div class="overlay">
+                <h6>『퀸 베이비』</h6>
+                <p>이시 우드가 자신의 블로그 커밋투더디시(committothedish)에 쓴 글을 모은 것으로, 팬데믹이 잦아들며 우리가 다시 조심스럽게 세상으로 들어온 시기를 그의 특별한 관찰과
+                  언어로
+                  기록하고 있습니다.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="box b4">
+            <a href="#">
+              <figure>
+                <img src="../image/Main_Store4.jpg" alt="Main_Store4">
+              </figure>
+              <h6 class="text">우주생활</h6>
+
+              <div class="overlay">
+                <h6>우주생활</h6>
+                <p>항공, 기계, 우주 등에 관심을 가지고 작업해온 동시대 미술가들의 작품이 수록되어있다.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- ////story -->
+
+  <!-- footer -->
+  <footer>
+    <div class="footer_inner">
+      <p>ILMIN</p>
+      <div class="line"></div>
+      <p>ART</p>
+      <div class="line"></div>
+      <p>MUSEUM</p>
+      <div class="line"></div>
+
+      <ul class="f_menu">
+        <li>
+          <a href="#">일민 스토리</a>
+          <ul class="f_sub">
+            <li><a href="#">일민미술관</a></li>
+            <li><a href="#">일민문화재단</a></li>
+            <li><a href="#">공지사항</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">전시 및 관람</a>
+          <ul class="f_sub">
+            <li><a href="#">전시작품</a></li>
+            <li><a href="#">관람 안내</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">아티스트</a>
+          <ul class="f_sub">
+            <li><a href="#">프로그램</a></li>
+            <li><a href="#">아티스트 이야기</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">IMA멤버십</a>
+        </li>
+        <li>
+          <a href="#">디자인 스토어</a>
+          <ul class="f_sub">
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">아트상품</a></li>
+            <li><a href="#">출판물</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="footer_bottom">
+        <ul>
+          <li>대표자명 : 김태령 (재)일민문화재단</li>
+          <li>서울특별시 종로구 세종대로 152</li>
+          <li>사업자번호 : 102-82-07760</li>
+          <li>Tel : 01-2020-2050</li>
+          <li>통신판매업신고번호 : 2016-서울종로-0667</li>
+        </ul>
+
+        <div class="footer_right">
+          <div class="f_text">
+            <a href="#">이용약관</a>
+            <a href="#">교환 및 환불 규정</a>
+            <a href="#">개인정보처리방침</a>
+          </div>
+
+          <div class="sns">
+            <a href="#">
+              <img src="../image/instar_icon.svg" alt="instar_icon">
+            </a>
+            <a href="#">
+              <img src="../image/Twitter_icon.svg" alt="Twitter_icon">
+            </a>
+            <a href="#">
+              <img src="../image/youtube_icon.svg" alt="youtube_icon">
+            </a>
+            <a href="#">
+              <img src="../image/mail_icon.svg" alt="mail_icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ////footer -->
+</body>
+
+</html>

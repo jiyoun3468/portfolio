@@ -1,0 +1,699 @@
+@charset "utf-8";
+@import url(../css/common.css);
+
+
+.story .b1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.story .photo {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.story p {
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.story .b1 p {
+  width: 80%;
+
+}
+
+.story .line {
+  width: 250px;
+}
+
+.story .b1 figure {
+  margin-right: 40px;
+}
+
+.story .b2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.story .photo:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.story .text {
+  width: 90%;
+}
+
+.story .b2 figure {
+  margin-left: 40px;
+}
+
+.story .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.story .t1 {
+  align-items: flex-start;
+}
+
+.story .l2 {
+  width: 300px;
+}
+
+.exhibitions_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exhibitions_box .box2 {
+  display: flex;
+}
+
+.text {
+  width: 100%;
+  padding: 0 8px;
+  margin-top: 16px;
+}
+
+h6 {
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 170%;
+}
+/* main */
+main{
+  width: 100%;
+  height: 91vh;
+}
+main .video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main h2{
+  width: 100%;
+  font-size: 178px;
+  font-weight: 900;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,0);
+  z-index: 3;
+}
+main .h2_m {
+  font-size: 170px;
+  font-weight: 900;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 0;
+  display: none;
+}
+
+main .h2_m span{
+  display: block;
+  font-size: 67px;
+}
+/* ///main */
+
+.exhibitions .box2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.exhibitions .box2 .line {
+  position: absolute;
+  top: 10%;
+  left: -50%;
+}
+
+.exhibitions .box2 .line h5 {
+  line-height: 170%;
+}
+
+.exhibitions .box2 .line a {
+  margin-right: 24px;
+}
+
+.exhibitions_box:last-child {
+  margin-top: 60px;
+  align-items: flex-end;
+}
+
+.exhibitions_box .boxwrap {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.exhibitions_box .b1 {
+  width: 25%;
+}
+
+.exhibitions_box .boxwrap p{
+  width: 50%;
+}
+.artists_wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.artists_wrap .text span{
+  color: #C3C9DE;
+  font-size: 18px;
+}
+.artists_wrap:last-child{
+  margin-bottom: 0;
+}
+.artists_wrap .photo2{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.artists_wrap .photo1{
+  width: 40%;
+}
+.artists_wrap .photo1 p{
+  margin-top: 24px;
+}
+.artists_wrap .photo{
+  margin-right: 40px;
+}
+.artists_wrap .line{
+  width: 250px;
+  height: 70px;
+}
+.artists_wrap .l2{
+  width: 330px;
+}
+.artists_wrap .p2{
+  margin-right: 0;
+}
+.membership{
+  width: 100%;
+  height: 300px;
+  margin-top: 250px;
+  background-image: url(../image/membership_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.membership h3{
+  margin-bottom: 24px;
+}
+.store_wrap{
+ width: 100%;
+ display: flex;
+}
+.store_wrap:last-child{
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: -200px;
+}
+.store_wrap .b1{
+  margin-right: 40px;
+}
+.store_wrap .box_wrap{
+  display: flex;
+  align-items: flex-end;
+}
+.store_wrap .botton{
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.store_wrap .w_line{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #fff;
+  font-size: 32px;
+}
+.store_wrap .bg_purple{
+  width: 100px;
+  height: 100px;
+  background-color: #7D23F4;
+  position: absolute;
+  top: -25%;
+  right: -25%;
+  z-index: -1;
+}
+.store_wrap .b4{
+  margin-left: 40px;
+  margin-bottom:200px;
+}
+.store_wrap .box{
+  position: relative;
+}
+.store_wrap .box .text{
+  position: absolute;
+  top: 1px;
+  left: 8px;
+  width: fit-content;
+}
+.overlay{
+  position: absolute;
+  background-color: #0000008e;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  display: none;
+}
+.overlay p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+
+
+@media screen and (max-width:1740px) {
+  main h2{
+    font-size: 130px;
+  }
+  .story .b1 p{
+    width: 70%;
+  }
+  .story .text{
+    width: 70%;
+  }
+  .exhibitions .box2{
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 40px;
+  }
+  .exhibitions .box2 .line{
+    position: static;
+  }
+  .exhibitions_box .b1{
+    width: 22%;
+  }
+  .exhibitions_box .boxwrap p {
+    margin-left: 40px;
+  }
+  .artists_wrap .photo2{
+    width: 57%;
+  }
+  .photob1{
+    margin-right: 40px;
+  }
+  .store_wrap .box_wrap{
+    align-items: center;
+  }
+  .store_wrap:last-child {
+    margin-top: 60px;
+  }
+  .store_wrap .b4{
+    margin-bottom: 0;
+  }
+  .store_wrap .botton{
+    margin: 0 80px;
+    margin-bottom: 0;
+  }
+  .exhibitions_box .b1{
+    width: 30%;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  main h2{
+    font-size: 100px;
+  }
+  .story .b1{
+    flex-direction: column;
+  }
+  .story .b1 p{
+    width: 100%;
+  }
+  .story .text{
+    width: 100%;
+  }
+  .story .b2{
+    flex-direction: column-reverse;
+  }
+  .story .line{
+    width: 228px;
+  }
+  .story .l2{
+    width: 250px;
+  }
+  .exhibitions_box .b1{
+    width: 60%;
+  }
+  .exhibitions_box .boxwrap{
+    flex-direction: column-reverse;
+    width: 80%;
+  }
+  .exhibitions_box .boxwrap p{
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .artists_wrap{
+    flex-direction: column;
+  }
+  .artists_wrap .photo2{
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .artists_wrap .photo1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .artists_wrap .photo1 p{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  .artists_w2{
+    flex-direction: column-reverse;
+  }
+  .artists_w2 .photo2{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .artists_w2 .photo1{
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .artists_wrap .line{
+    width: 210px;
+  }
+  .artists_wrap .l2{
+    width: 280px;
+  }
+  .artists_wrap:last-child{
+    margin-top: 80px;
+  }
+  .store_wrap .w_line{
+    width: 168px;
+    height: 168px;
+    font-size: 24px;
+  }
+  .store_wrap .botton{
+    margin-left: 0;
+  }
+  .membership{
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width:991px){
+  main h2{
+    font-size: 82px;
+}
+.exhibitions_box{
+  position: relative;
+}
+.exhibitions_box .boxwrap p{
+  position: absolute;
+  top: -39%;
+  left: 0;
+}
+.exhibitions_box:last-child{
+  margin-top: 180px;
+}
+section span, .artists_wrap .text span{
+  font-size: 16px;
+}
+.store_wrap .w_line{
+  width: 130px;
+  height: 130px;
+  font-size: 20px;
+}
+.store_wrap .bg_purple{
+  width: 80px;
+  height: 80px;
+}
+}
+@media screen and (max-width:767px){
+main h2{
+  display: none;
+}
+main .h2_m{
+  display: block;
+}
+.exhibitions_box{
+    flex-direction: column;
+}
+.exhibitions .box2{
+    margin-left: 0;
+    margin-top: 40px;
+}
+.exhibitions_box .boxwrap p{
+  top: -168px;
+}
+.exhibitions_box:last-child{
+  flex-direction: column-reverse;
+  width: 100%;
+  align-items: flex-start;
+}
+.exhibitions_box .b1{
+  align-self: flex-end;
+  margin-top: 40px;
+  margin-right: 0;
+  width: auto;
+}
+.artists_wrap .photo1{
+  flex-direction: column;
+}
+.artists_wrap .photo1 p{
+  width: 100%;
+  margin-left: 0;
+  margin-top: 16px;
+}
+.artists_w2 .photo2{
+  flex-direction: column-reverse;
+}
+.photob1{
+  align-self: flex-end;
+  margin-right: 0;
+  margin-top: 40px;
+}
+.membership{
+  height: 200px;
+}
+.membership h3{
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.store_wrap{
+  flex-direction: column;
+}
+.store_wrap .b2{
+  margin-top: 40px;
+  align-self: flex-end;
+}
+.store_wrap:last-child{
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.store_wrap .box_wrap{
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.store_wrap .b4{
+  margin-top: 40px;
+  margin-left: 0;
+  width: 60%;
+  align-self: flex-end;
+}
+.store_wrap .botton{
+  margin-top: -128px;
+}
+}
+
+@media screen and (max-width:575px) {
+  main .h2_m{
+    font-size: 130px;
+}
+main .h2_m span{
+    font-size: 60px;
+}
+  .text{
+    padding: 0;
+  }
+  .story .photo{
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .story .line{
+    width: 150px;
+  }
+  .story .b1 figure{
+    margin-left: 40px;
+    margin-right: 0;
+    width: 90%;
+  }
+  .story .t1{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .story .b1 figure{
+    margin-left: 0;
+  }
+  .story .photo:nth-child(2){
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .story .t2{
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 16px;
+  }
+  .story .b2 figure:last-child{
+    margin-left: 0;
+  }
+  .Main_Story_4{
+    width: 90%;
+  }
+  .story .l2{
+    width: 160px;
+  }
+  h6{
+    margin-bottom: 4px;
+  }
+  section span, .artists_wrap .text span{
+    font-size: 14px;
+  }
+  .exhibitions .box2 .line{
+    width: 300px;
+  }
+  .exhibitions .box2 .line h5{
+    margin-right: 40px;
+  }
+  .artists_wrap .photo2{
+    flex-direction: column;
+    width: 100%;
+  }
+  .artists_figure{
+    width: 80%;
+    margin-top: 24px;
+    align-self: flex-end;
+  }
+  .artists_wrap .photo1{
+    margin-top: 24px;
+  }
+  .artists_wrap .line{
+    width: 128px;
+    height: 40px;
+  }
+  .artists_w2 .photo2{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .artists_wrap .l2{
+    width: 184px;
+    height: 40px;
+  }
+  .artists_w2 .photo2 .box{
+    width: 80%;
+  }
+  .photob1{
+    margin-top: 16px;
+    align-self: flex-end;
+    width: 80%;
+  }
+
+  .membership{
+    margin-top: 100px;
+  }
+  .store_wrap .w_line{
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+  }
+  .store_wrap .bg_purple{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  main .h2_m{
+    font-size: 120px;
+    top: 68%;
+  }
+  main .h2_m span{
+    font-size: 50px;
+  }
+  .story .line{
+    width: 130px;
+  }
+  .story .l2{
+    width: 145px;
+  }
+  .exhibitions .box2 .line{
+    width: 254px;
+  }
+  .artists_wrap .line{
+    width: 110px;
+    height: 36px;
+  }
+  .artists_wrap .line{
+    width: 110px;
+  }
+  p{
+    font-size: 14px;
+  }
+  .artists_wrap .l2{
+    width: 160px;
+  }
+  .store_wrap .botton{
+    margin-top: -79px;
+  }
+  .store_wrap .w_line{
+    width: 80px;
+    height: 80px;
+  }
+
+}
