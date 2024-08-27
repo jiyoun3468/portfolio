@@ -4,586 +4,931 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>일민미술관</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon.ico">
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/main.css">
+  <title>임지연 포트폴리오</title>
+  <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/loding.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./aos/aos.css">
+
+  <script src="./script/jquery-3.7.1.min.js"></script>
+  <script src="./script/loding.js"></script>
+  <script src="./script/app.js"></script>
+  <script src="./aos/aos.js"></script>
+
 </head>
 
 <body>
+  <div class="loding_wrap">
+    <div class="loding">
+      <figure>
+        <img src="./image/loding_icon.png" alt="loding">
+      </figure>
+
+      <div class="box">
+        <div class="loading-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="login_wrap">
+    <div class="login">
+      <div class="me">
+      </div>
+
+      <p class="title">임지연</p>
+
+      <div class="flid_all">
+        <div class="flid_left">
+
+          <div class="bar"></div>
+          <p>암호입력</p>
+
+          <div class="password">
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+          </div>
+        </div>
+
+        <div class="flid_right">
+          <div class="next">
+            <img src="./image/next.png" alt="next">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- header -->
   <header>
-    <h1>
-      <a href="./index.html">
-        <img src="../image/login_logo.png" alt="logo" class="logo">
-        <img src="../image/login_logo_s.png" alt="logo_S" class="logo_s">
-        <span class="t_hidden">일민미술관</span>
-      </a>
-    </h1>
+    <h1><span class="t_hiden">임지연 포트폴리오</span></h1>
+    <div class="main_background_wrap">
 
-    <nav>
-      <div class="tap">
-        <div class="bar"></div>
-        <p class="tap">OPEN</p>
-      </div>
-
-      <div class="menu_wrap">
-        <div class="tap_inner">
-          <div class="bar_inner"></div>
-          <p class="tap_text t2">CLOSE</p>
+      <div class="top_bar">
+        <div class="top_left">
+          <img src="./image/top_bar_icon.png" alt="top_bar_icon">
+          <span class="text text1">Finder</span>
+          <span class="text">File</span>
+          <span class="text">Edit</span>
+          <span class="text">View</span>
+          <span class="text">Go</span>
+          <span class="text">Window</span>
+          <span class="text">Help</span>
         </div>
-        <ul class="menu">
-          <li>
-            <a href="./Art_Museum.html">About Ilmin</a>
-            <ul class="hover">
-              <li><a href="#">일민스토리</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="./Exhibitions_Viewing.html">Exhibitions & Viewing</a>
-            <ul class="hover">
-              <li><a href="#">전시 및 관람</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="./Artists.html">Artists</a>
-            <ul class="hover">
-              <li><a href="#">아티스트</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="./IMA_Membership.html">IMA Membership</a>
-            <ul class="hover">
-              <li><a href="#">IMA 멤버십</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="./Design_Store.html">Design Store</a>
-            <ul class="hover">
-              <li><a href="#">디자인 스토어</a></li>
-            </ul>
-          </li>
-        </ul>
+
+        <div class="top_rigth">
+          <img src="./image/top_bar_icon2.png" alt="top_bar_icon2">
+          <img src="./image/top_bar_icon3.png" alt="top_bar_icon3">
+          <img src="./image/top_bar_icon4.png" alt="top_bar_icon4">
+          <img src="./image/top_bar_icon5.png" alt="top_bar_icon5">
+          <span id="date" class="clock"></span>
+          <span id="time" class="clock"></span>
+        </div>
       </div>
-    </nav>
 
-    <div class="icon">
-      <a href="#" class="show1"><img src="../image/search_icon.svg" alt="search_icon"></a>
-      <a href="#" class="show2"><img src="../image/user_icon.svg" alt="user_icon"></a>
-
-      <a href="#" class="t_bar"><img src="../image/bar_icon.svg" alt="bar_icon"></a>
-
-      <a href="#" class="mobile"><img src="../image/search_icon_s.svg" alt="search_icon_s"></a>
-      <a href="#" class="mobile2"><img src="../image/bar_icon_s.svg" alt="bar_icon_s"></a>
-
-    </div>
-
-    <div class="menu_inner">
-      <div class="close">
-        <a href="#">
-          <img src="../image/close_icon.svg" alt="close_icon" class="c_w">
-          <img src="../image/close_icon_s.svg" alt="close_icon_s" class="c_m">
-        </a>
+      <div class="bottom_bar">
+        <img src="./image/bottom_bar_icon1.png" alt="bottom_bar_icon1">
+        <img src="./image/bottom_bar_icon2.png" alt="bottom_bar_icon2">
+        <img src="./image/bottom_bar_icon3.png" alt="bottom_bar_icon3">
+        <img src="./image/bottom_bar_icon4.png" alt="bottom_bar_icon4">
+        <img src="./image/bottom_bar_icon5.png" alt="bottom_bar_icon5">
+        <img src="./image/bottom_bar_icon6.png" alt="bottom_bar_icon6">
+        <img src="./image/bottom_bar_icon7.png" alt="bottom_bar_icon7">
+        <img src="./image/bottom_bar_icon8.png" alt="bottom_bar_icon8">
+        <img src="./image/bottom_bar_icon9.png" alt="bottom_bar_icon9">
+        <img src="./image/bottom_bar_icon10.png" alt="bottom_bar_icon10">
+        <img src="./image/bottom_bar_icon11.png" alt="bottom_bar_icon11">
+        <img src="./image/bottom_bar_icon12.png" alt="bottom_bar_icon12">
+        <img src="./image/bottom_bar_icon13.png" alt="bottom_bar_icon13">
+        <img src="./image/bottom_bar_icon14.png" alt="bottom_bar_icon14">
+        <img src="./image/bottom_bar_icon15.png" alt="bottom_bar_icon15">
+        <img src="./image/bottom_bar_icon16.png" alt="bottom_bar_icon16">
+        <img src="./image/bottom_bar_icon17.png" alt="bottom_bar_icon17">
       </div>
-      <ul class="menu">
-        <li>
-          <a href="./Art_Museum.html">About Ilmin</a>
-          <ul class="hover">
-            <li>
-              <a href="#">일민스토리</a>
-              <img src="../image/menu_inner1.jpg" alt="menu_inner1" class="img1">
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="./Exhibitions_Viewing.html">Exhibitions & Viewing</a>
-          <ul class="hover">
-            <li>
-              <a href="#">전시 및 관람</a>
-              <img src="../image/menu_inner2.jpg" alt="menu_inner2" class="img2">
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="./Artists.html">Artists</a>
-          <ul class="hover">
-            <li>
-              <a href="#">아티스트</a>
-              <img src="../image/menu_inner3.jpg" alt="menu_inner3" class="img3">
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="./IMA_Membership.html">IMA Membership</a>
-          <ul class="hover">
-            <li>
-              <a href="#">IMA 멤버십</a>
-              <img src="../image/menu_inner4.jpg" alt="menu_inner4" class="img4">
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="./Design_Store.html">Design Store</a>
-          <ul class="hover">
-            <li>
-              <a href="#">디자인 스토어</a>
-              <img src="../image/menu_inner5.jpg" alt="menu_inner5" class="img5">
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
 
-    <div class="search">
-      <div class="close">
-        <a href="#">
-          <img src="../image/close_icon.svg" alt="close_icon" class="close_icon">
-          <img src="../image/close_icon_s.svg" alt="close_icon_s" class="close_icon_s">
-        </a>
-      </div>
-    
-      <div class="box">
-        <label for="text">무엇을 찾으세요?</label>
-        <input type="text" id="text" name="text">
-        <a href="#">
-          <img src="../image/search_icon.svg" alt="search_icon" class="search_icon">
-          <img src="../image/search_icon_s.svg" alt="search_icon_s" class="search_icon_s">
-        </a>
-      </div>
-    </div>
 
-    <div class="login">
-      <div class="login_inner">
-        <a href="#"><img src="../image/login_logo.png" alt="login_logo" class="login_logo"></a>
-        <a href="#"><img src="../image/login_logo_s.png" alt="login_logo_s" class="login_logo_s"></a>
 
-        <form action="#">
-          <div class="flid">
-            <div class="id">
-              <label for="id">아이디 및 이메일</label>
-              <input type="text" id="id" name="id" required minlength="5" placeholder="아이디 및 이메일">
+      <div class="main_background">
+        <nav>
+          <div class="circle_all">
+            <div class="circle red"></div>
+            <div class="circle yello"></div>
+            <div class="circle green"></div>
+          </div>
+
+          <div class="tab_all">
+            <div class="tap inner">
+              <figure>
+                <img src="./image/heart_icon.png" alt="heart_icon">
+              </figure>
+              <p>menu</p>
+              <img src="./image/down.png" alt="close_icon" class="close">
             </div>
-            <div class="password">
-              <label for="password">비밀번호</label>
-              <input type="password" id="password" name="password" required minlength="8" placeholder="비밀번호">
+            <div class="tap show tap1">
+              <figure>
+                <img src="./image/heart_icon.png" alt="heart_icon">
+              </figure>
+              <p>About me</p>
+              <img src="./image/close_icon.png" alt="close_icon" class="close">
+            </div>
+            <div class="tap show tap2">
+              <figure>
+                <img src="./image/heart_icon.png" alt="heart_icon">
+              </figure>
+              <p>Work</p>
+              <img src="./image/close_icon.png" alt="close_icon" class="close">
+            </div>
+            <div class="tap show tap3">
+              <figure>
+                <img src="./image/heart_icon.png" alt="heart_icon">
+              </figure>
+              <p>Contect</p>
+              <img src="./image/close_icon.png" alt="close_icon" class="close">
             </div>
           </div>
 
-          <div class="flid2">
-            <div class="checbox_wrap">
-              <input type="checkbox" id="keep" name="keep">
-              <label for="keep">remember me</label>
-            </div>
-
-            <div class="find">
-              <span>아이디 찾기</span>
-              <span>비밀번호 찾기</span>
-            </div>
+          <div class="menu_inner">
+            <ul>
+              <li class="inner1">
+                <figure>
+                  <img src="./image/heart_icon.png" alt="heart_icon">
+                </figure>
+                <p>About me</p>
+              </li>
+              <li class="inner2">
+                <figure>
+                  <img src="./image/heart_icon.png" alt="heart_icon">
+                </figure>
+                <p>Work</p>
+              </li>
+              <li class="inner3">
+                <figure>
+                  <img src="./image/heart_icon.png" alt="heart_icon">
+                </figure>
+                <p>Contect</p>
+              </li>
+            </ul>
           </div>
+        </nav>
 
-          <button type="submit">LOGIN</button>
-
-          <div class="flid_b">
-            <p>아직 회원이 아니신가요?</p>
-            <span><a href="#">회원가입</a></span>
-          </div>
-        </form>
+        <div class="picture">
+          <picture>
+            <source srcset="./image/MAIN_M.gif" media="(max-width:575px)" class="MAIN_M">
+            <source srcset="./image/MAIN_T.gif" media="(max-width:1200px)" class="MAIN_T">
+            <source srcset="./image/MAIN.gif" media="(min-width:1201px)" class="MAIN1">
+            <img src="./image/MAIN.gif" alt="MAIN">
+          </picture>
+        </div>
       </div>
     </div>
   </header>
+  <!-- ///header -->
 
-  <main>
-    <h2>ILMIN ART GALLERY</h2>
-    <div class="title">
-      <h2 class="h2_m">ILMIN <span>ART GALLERY</span></h2>
+
+  <!-- about me -->
+  <section class="about_me">
+
+
+    <div class="titlebox" data-aos="fade-up" data-aos-duration="500">
+      <h3>About me</h3>
+      <span class="pixel p1"></span>
+      <span class="pixel p2"></span>
+      <span class="pixel p3"></span>
+      <span class="pixel p4"></span>
     </div>
-    <div class="video">
-      <video src="../video/main_video.mp4" autoplay muted loop></video>
-    </div>
-  </main>
-  <!-- ////header -->
 
-  <!-- story -->
-  <section class="story">
-    <h2>
-      <a href="#">Ilmin Story</a>
-      <span class="t_hidden">일민스토리</span>
-    </h2>
 
-    <div class="box b1">
-      <div class="photo">
-        <figure>
-          <img src="../image/Main_Story_1.jpg" alt="Main_Store1">
-        </figure>
-        <div class="title t1">
-          <div class="line l1">
-          <a href="./Art_Museum.html">
-            <h5>일민미술관</h5>
-            <span class="t_hidden">일민미술관</span>
-            <img src="../image/next_icon.svg" alt="next_icon" class="next">
-            <img src="../image/next_icon_S.svg" alt="next_icon" class="next_s">
-          </a>
-            
-          </div>
+    <div class="section_all">
+
+
+      <div class="profile_photo_all" data-aos="fade-up" data-aos-duration="500">
+        <div class="profile_photo">
           <figure>
-            <img src="../image/Main_Story_2.jpg" alt="Main_Story_2">
+            <img src="./image/Lim_jiyeon.jpg" alt="Lim-jiyeon">
           </figure>
-        </div>
-      </div>
 
-      <p class="text">대한민국의 문화지형적 상징, 서울 광화문 광장 앞에 위치한 일민미술관은 1996년 개관 이래 예술적 실천이 삶을 풍요롭게 가꾼다는 믿음으로 다양한 전시활동을 전개해 왔습니다.
-        현대미술의 흐름을 읽어내는 중추적 역할을 수행하면서 국내외 미술계에서 주목 받는 동시대 미술관으로 활약하고 있습니다.</p>
-    </div>
-
-    <div class="box b2">
-      <p class="text">일민문화재단은 평생을 언론과 문화진흥에 헌신한 일민 김상만 선생의 유지를 기리기 위해 설립된 비영리 문화단체입니다.
-        일민문화재단은 참된 삶이란 문화와 예술의 가치를 소중히 여기는 사회에서 가능하다는 일민선생의 신념을 실현하기 위해 일민문화상(구 일민예술상), 일민미술관 운영 등을 통해 문화활동을 지원하고 문화의
-        사회적 기능을 실행하고자 노력하고 있습니다.</p>
-      <div class="photo">
-
-        <div class="title t2">
-          <div class="line l2">
-            <a href="#">
-              <h5>일민문화재단</h5>
-              <span class="t_hidden">일민문화재단</span>
-              <img src="../image/next_icon.svg" alt="next_icon" class="next">
-              <img src="../image/next_icon_s.svg" alt="next_icon" class="next_s">
-            </a>
-          </div>
-          <figure>
-            <img src="../image/Main_Story_3.jpg" alt="Main_Story_3">
-          </figure>
+          <span class="pixel pp1"></span>
+          <span class="pixel pp2"></span>
+          <span class="pixel pp3"></span>
+          <span class="pixel pp4"></span>
         </div>
 
-        <figure class="Main_Story_4">
-          <img src="../image/Main_Story_4.jpg" alt="Main_Story_4">
-        </figure>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="exhibitions">
-    <h2>
-      <a href="#">Exhibitions & Viewing</a>
-      <span class="t_hidden">전시 및 관람</span>
-    </h2>
-
-    <div class="exhibitions_box">
-      <div class="box">
-        <figure>
-          <img src="../image/Main_Exhibitions1.jpg" alt="Main_Exhibitions1">
-        </figure>
         <div class="text">
-          <h6>포에버리즘: 우리를 세상의 끝으로</h6>
-          <span>2024.4.12.(Fri) ~ 2024.6.23.(Sun)</span>
-        </div>
-      </div>
-
-      <div class="box2">
-        <div class="line">
-          <a href="./Exhibitions_Viewing.html">
-            <h5>FOREVERISM <br>
-              ENDLESS HORIZONS</h5>
-              <span class="t_hidden">FOREVERISM ENDLESS HORIZONS</span>
-              <img src="../image/next_icon.svg" alt="next_icon" class="next">
-              <img src="../image/next_icon_s.svg" alt="next_icon_S" class="next_s">
-            </a>
-        </div>
-        <figure>
-          <img src="../image/Main_Exhibitions2.jpg" alt="Main_Exhibitions2">
-        </figure>
-      </div>
-    </div>
-
-    <div class="exhibitions_box">
-      <div class="box b1">
-        <figure>
-          <img src="../image/Main_Exhibitions3.jpg" alt="Main_Exhibitions3">
-        </figure>
-        <h6 class="text">전다화 [나 같은 여자]</h6>
-      </div>
-      <div class="boxwrap">
-        <div class="box b2">
-          <figure>
-            <img src="../image/Main_Exhibitions4.jpg" alt="Main_Exhibitions4">
-          </figure>
-          <h6 class="text">윤영빈 [깨짐 모양 깨짐]</h6>
-        </div>
-        <p>그리움은 이 시대의 가장 큰 산업이다. 사회, 문화, 정치 전반의 영역에서 대중적인 인기를
-          끄는 대부분이 무언가를 그리워하는 감정과 연결된다.
-          소셜 플랫폼은 과거의 빛나는 순간을
-          오늘의 트래픽과 교환하고 아이돌 그룹은 지난 세기 팝 문화의 유산을 상속하기 위해 경쟁한다.</p>
-      </div>
-    </div>
-  </section>
-  <!-- ///exhibitions -->
-
-  <!-- artists -->
-  <section class="artists">
-    <h2>
-      <a href="#">Artists</a>
-      <span class="t_hidden">아티스트</span>
-    </h2>
-
-    <div class="artists_wrap">
-      <div class="photo2">
-        <div class="box">
-          <div class="line">
-            <a href="./Artists.html">
-              <h5>프로그램</h5>
-              <span class="t_hidden">프로그램</span>
-              <img src="../image/next_icon.svg" alt="next_icon" class="next">
-              <img src="../image/next_icon_s.svg" alt="next_icon_s" class="next_s">
-            </a>
-          </div>
-
-          <div class="photo">
-            <figure>
-              <img src="../image/Main_Artists1.jpg" alt="Main_Artists1">
-            </figure>
-            <div class="text">
-              <h6>역자후기 30: 그래프턴 태너 『포에버리즘』</h6>
-              <span>2024.6.20.(Thu) 7 PM</span>
-            </div>
-          </div>
-        </div>
-
-        <figure class="artists_figure">
-          <img src="../image/Main_Artists2.jpg" alt="Main_Artists2">
-        </figure>
-      </div>
-
-      <div class="photo1">
-        <figure>
-          <img src="../image/Main_Artists3.jpg" alt="Main_Artists3">
-        </figure>
-        <p>이번 역자후기는 과거의 추억을 현재 그리고 미래에까지 연장시키려는 이 ‘산업’을 정확하게 이해하기 위해 ‘영원주의(foreverism)’와 ‘영원화(foreverize)’라는 개념을 살피고자
-          합니다.</p>
-      </div>
-    </div>
-
-    <div class="artists_wrap artists_w2">
-      <div class="photo1">
-        <figure>
-          <img src="../image/Main_Artists4.jpg" alt="Main_Artists4">
-        </figure>
-        <div class="text">
-          <h6>문주혜 × 일민미술관</h6>
-          <span>아티스트 토크─What’s my Box?</span>
-        </div>
-      </div>
-
-      <div class="photo2">
-        <div class="box photob1">
-          <figure class="Main_Artists5">
-            <img src="../image/Main_Artists5.jpg" alt="Main_Artists5">
-          </figure>
-          <div class="text">
-            <h6>최하늘 × 일민미술관</h6>
-            <span>아티스트 토크─What’s my IDOL?</span>
-          </div>
-        </div>
-        <div class="box">
-          <div class="line l2">
-            <a href="#">
-              <h5>아티스트 스토리</h5>
-              <span class="t_hidden">아티스트 스토리</span>
-              <img src="../image/next_icon.svg" alt="next_icon" class="next">
-              <img src="../image/next_icon_s.svg" alt="next_icon_s" class="next_s">
-            </a>
-          </div>
-
-          <div class="photo p2">
-            <figure class="Main_Artists6">
-              <img src="../image/Main_Artists6.jpg" alt="Main_Artists6">
-            </figure>
-            <div class="text">
-              <h6>권오상 × 일민미술관</h6>
-              <span>아티스트 토크─What’s my collection?</span>
-            </div>
-          </div>
+          <h3 data-aos="fade-up" data-aos-duration="500">어쩌면 종착지는</h3>
+          <h2 data-aos="fade-up" data-aos-duration="600">바로 여기!</h2>
+          <h3 data-aos="fade-up" data-aos-duration="700">안녕하세요, 임지연입니다.</h3>
         </div>
       </div>
 
 
-    </div>
-  </section>
-  <!-- ///artists -->
-
-  <!-- membership -->
-  <div class="membership">
-    <a href="./Art_Museum.html">
-      <h3>멤버십 가입하기</h3>
-      <span class="t_hidden">IMA 멤버십</span>
-      <p>다양한 혜택을 누려보세요</p>
-    </a>
-  </div>
-  <!-- ///membership -->
-
-  <!-- store -->
-  <section class="store">
-    <h2>
-      <a href="#">Design Store</a>
-      <span class="t_hidden">디자인 스토어</span>
-    </h2>
-
-    <div class="store_wrap">
-      <div class="box b1">
-        <a href="#">
-          <figure>
-            <img src="../image/Main_Store1.jpg" alt="Main_Store1">
-          </figure>
-          <h6 class="text">도래하지 않은 이들을 위한 노래 (LP)</h6>
-
-          <div class="overlay">
-            <h6>도래하지 않은 이들을 위한 노래 (LP)</h6>
-            <p>[도래하지 않은 이들을 위한 노래]는 일민미술관 《새일꾼 1948-2020: 여러분의 대표를 뽑아 국회로 보내시오》 전시 프로젝트의 일환으로 제작된 컴필레이션 앨범이다.</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="box b2">
-        <a href="#">
-          <figure>
-            <img src="../image/Main_Store2.jpg" alt="Main_Store2">
-          </figure>
-          <h6 class="text">『크래시─기술·속도·미술시장을 읽는 열 시간』</h6>
-
-          <div class="overlay">
-            <h6>『크래시─기술·속도·미술시장을 읽는 열 시간』</h6>
-            <p>『크래시─기술·속도·미술시장을 읽는 열 시간』은 일민미술관이 2022년 개최한 강연 프로그램 〈인문학 썸머스쿨〉을 재구성한 책입니다. </p>
-          </div>
-        </a>
-      </div>
-    </div>
 
 
-      <div class="store_wrap w2">
-        <div class="botton">
-          <div class="w_line">
-            <a href="./Design_Store.html">BUY NOW!</a>
-          </div>
-          <div class="bg_purple"></div>
-        </div>
-
+      <div class="box_wrap_all">
         <div class="box_wrap">
-          <div class="box b3">
-            <a href="#">
-              <figure>
-                <img src="../image/Main_Store3.jpg" alt="Main_Store3">
-              </figure>
-              <h6 class="text">『퀸 베이비』</h6>
+          <!-- box one -->
+          <div class="box_left">
 
-              <div class="overlay">
-                <h6>『퀸 베이비』</h6>
-                <p>이시 우드가 자신의 블로그 커밋투더디시(committothedish)에 쓴 글을 모은 것으로, 팬데믹이 잦아들며 우리가 다시 조심스럽게 세상으로 들어온 시기를 그의 특별한 관찰과
-                  언어로
-                  기록하고 있습니다.</p>
+            <div class="box_one">
+              <div class="profile_text_all" data-aos="fade-up" data-aos-duration="100">
+                <figure>
+                  <img src="./image/Cursor_blue_icon.png" alt="Cursor_blue_iocn">
+                </figure>
+
+                <div class="profile_text">
+                  <h3>임지연</h3>
+
+                  <h6>1996. 02. 24</h6>
+                  <h6>010-9864-6469</h6>
+                  <h6>thggh6469@naver.com</h6>
+                </div>
               </div>
-            </a>
+
+
+              <div class="box Experience" data-aos="fade-up" data-aos-duration="200">
+                <h5 class="pink">Experience</h5>
+                <span class="t_hiden">경력</span>
+
+                <p>유치원 및 어린이집 정교사</p>
+                <span class="gray">(2018. 03 ~ 2023. 09)</span>
+              </div>
+            </div>
+
+            <div class="box certificate" data-aos="fade-up" data-aos-duration="300">
+              <h5 class="yellow">certificate</h5>
+              <span class="t_hiden">자격증</span>
+
+              <div class="box3_text_all">
+                <div class="b1">
+                  <p>웹디자인기능사</p>
+                  <span class="gray">(2024. 06. 26)</span>
+                  <p>컴퓨터그래픽스운용기능사</p>
+                  <span class="gray">(2024. 04. 17)</span>
+                  <p>ACP 포토샵 자격증</p>
+                  <span class="gray">(2024. 06. 26)</span>
+                  <p>ACP 일러스트 자격증</p>
+                  <span class="gray">(2024. 04. 17)</span>
+                </div>
+
+                <div class="b2">
+                  <p>ACP 인디자인 자격증</p>
+                  <span class="gray">(준비중)</span>
+                  <p>자동차운전면허2종보통</p>
+                  <span class="gray">(2019. 03. 07)</span>
+                  <p>ITQ 아래한글</p>
+                  <span class="gray">(2017. 12. 25)</span>
+                  <p>보육교사 1급 외 관련 10개</p>
+                  <span class="gray">(2015 07. 27 ~ 2021. 11. 02)</span>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="box b4">
-            <a href="#">
-              <figure>
-                <img src="../image/Main_Store4.jpg" alt="Main_Store4">
-              </figure>
-              <h6 class="text">우주생활</h6>
 
-              <div class="overlay">
-                <h6>우주생활</h6>
-                <p>항공, 기계, 우주 등에 관심을 가지고 작업해온 동시대 미술가들의 작품이 수록되어있다.</p>
+          <!-- <div class="box box2"> -->
+
+          <div class="box_right">
+
+            <div class="box Education" data-aos="fade-up" data-aos-duration="400">
+              <h5 class="green">Education</h5>
+              <span class="t_hiden">교육</span>
+
+              <p>SBS아카데미컴퓨터아트학원 대구점</p>
+              <span class="gray">(2023. 11 ~ )</span>
+              <p>대구과학대학교 평생교육원 아동학사
+                / 복수전공 사회복지학사</p>
+              <span class="gray">(2018. 03 ~ 2019. 03)</span>
+              <p>대구과학대학교 유아교육과</p>
+              <span class="gray">(2015. 03 ~ 2018. 02)</span>
+            </div>
+
+
+            <div class="box skill" data-aos="fade-up" data-aos-duration="500">
+              <h5 class="orange">Skill</h5>
+              <span class="t_hiden">스킬</span>
+
+              <div class="icon">
+                <img src="./image/skill_icon1.png" alt="skill_icon1">
+                <img src="./image/skill_icon2.png" alt="skill_icon2">
+                <img src="./image/skill_icon3.png" alt="skill_icon3">
+                <img src="./image/skill_icon4.png" alt="skill_icon4">
+                <img src="./image/skill_icon5.png" alt="skill_icon5">
+                <img src="./image/skill_icon6.png" alt="skill_icon6">
+                <img src="./image/skill_icon7.png" alt="skill_icon7">
+                <img src="./image/skill_icon8.png" alt="skill_icon8">
+                <img src="./image/skill_icon9.png" alt="skill_icon9">
+                <img src="./image/skill_icon10.png" alt="skill_icon10">
+                <img src="./image/skill_icon11.png" alt="skill_icon11">
+                <img src="./image/skill_icon12.png" alt="skill_icon12">
+                <img src="./image/skill_icon13.png" alt="skill_icon13">
               </div>
-            </a>
+            </div>
           </div>
         </div>
+        <!-- </div> -->
       </div>
+
+
+    </div>
   </section>
-  <!-- ////story -->
+  <!-- ///about me -->
+
+  <!-- contents -->
+  <section class="contents">
+    <div class="titlebox" data-aos="fade-up" data-aos-duration="100">
+      <h3>content</h3>
+      <span class="pixel p1"></span>
+      <span class="pixel p2"></span>
+      <span class="pixel p3"></span>
+      <span class="pixel p4"></span>
+    </div>
+
+    <div class="folder_wrap">
+
+      <div class="folder_all folder_ilmin" data-aos="fade-up" data-aos-duration="200">
+        <a href="http://jiyoun3468.dothome.co.kr/" target="_blank">
+          <div class="folder">
+            <figure class="folder_img">
+              <img src="./image/folder_section1.png" alt="folder_section1">
+            </figure>
+            <figure class="logo">
+              <img src="./image/logo_ilmlin.png" alt="logo_ilmlin">
+            </figure>
+            <figure class="folder_Lid">
+              <img src="./image/folder_Lid1.png" alt="folder_Lid1">
+            </figure>
+
+            <span class="lid_text">click</span>
+
+          </div>
+
+          <div class="text">
+            <h6>일민미술관_</h6>
+            <span>Web Design</span>
+          </div>
+        </a>
+      </div>
+      <div class="folder_all folder_jeju" data-aos="fade-up" data-aos-duration="300">
+        <a href="https://jiyoun3468.github.io/jejumilk/" target="_blank">
+          <div class="folder">
+            <figure class="folder_img">
+              <img src="./image/folder_section2.png" alt="folder_section2">
+            </figure>
+            <figure class="logo">
+              <img src="./image/logo_jejumilk.png" alt="logo_jejumilk">
+            </figure>
+            <figure class="folder_Lid">
+              <img src="./image/folder_Lid2.png" alt="folder_Lid2">
+            </figure>
+
+            <span class="lid_text">click</span>
+
+
+          </div>
+
+          <div class="text">
+            <h6>제주우유_</h6>
+            <span>Web Design</span>
+          </div>
+        </a>
+      </div>
+      <div class="folder_all folder_my" data-aos="fade-up" data-aos-duration="400">
+        <a href="https://jiyoun3468.github.io/myrealtrip/" target="_blank">
+          <div class="folder">
+            <figure class="folder_img">
+              <img src="./image/folder_section3.png" alt="folder_section3">
+            </figure>
+            <figure class="logo l3">
+              <img src="./image/logo_myrealtrop.png" alt="logo_myrealtrop">
+            </figure>
+            <figure class="folder_Lid">
+              <img src="./image/folder_Lid3.png" alt="folder_Lid3">
+            </figure>
+
+            <span class="lid_text">click</span>
+
+
+          </div>
+
+          <div class="text">
+            <h6>마이리얼트립_</h6>
+            <span>Web Design</span>
+          </div>
+        </a>
+      </div>
+      <div class="folder_all folder_jelly" data-aos="fade-up" data-aos-duration="500">
+        <a href="https://jiyoun3468.cafe24.com/" target="_blank">
+          <div class="folder">
+            <figure class="folder_img">
+              <img src="./image/folder_section4.png" alt="folder_section4">
+            </figure>
+            <figure class="logo l3">
+              <img src="./image/logo_jellyteak.png" alt="logo_jellyteak">
+            </figure>
+            <figure class="folder_Lid">
+              <img src="./image/folder_Lid4.png" alt="folder_Lid4">
+            </figure>
+
+            <span class="lid_text">click</span>
+
+
+          </div>
+
+          <div class="text">
+            <h6>젤리티크 (창작)_</h6>
+            <span>cafe 24 Page</span>
+          </div>
+        </a>
+      </div>
+      <div class="folder_all folder_uiux" data-aos="fade-up" data-aos-duration="600">
+        <a href="https://www.figma.com/proto/ZXIFI4mF7jzwvBy8hcSdFO/UIUX-%EA%B1%B4%EA%B0%95%EC%95%8C%EB%A6%AC-(%EC%B0%BD%EC%9E%91)?page-id=0%3A1&node-id=45-257&viewport=-376%2C559%2C0.14&t=4gm0hC43Z7YZp3Oj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3&show-proto-sidebar=1" target="_blank">
+          <div class="folder">
+            <figure class="folder_img">
+              <img src="./image/folder_section5.png" alt="folder_section5">
+            </figure>
+            <figure class="logo">
+              <img src="./image/logo_ally.png" alt="logo_ally">
+            </figure>
+            <figure class="folder_Lid">
+              <img src="./image/folder_Lid5.png" alt="folder_Lid5">
+            </figure>
+
+            <span class="lid_text">click</span>
+
+          </div>
+
+          <div class="text">
+            <h6>건강알리 (창작)_</h6>
+            <span>UIUX & 브랜딩</span>
+          </div>
+        </a>
+      </div>
+      <div class="folder_all folder_poster" data-aos="fade-up" data-aos-duration="700">
+        <a href="./image/poster.pdf" target="_blank">
+          <div class="folder">
+            <figure class="folder_img">
+              <img src="./image/folder_section6.png" alt="folder_section6">
+            </figure>
+            <figure class="logo l3">
+              <img src="./image/logo_poster.png" alt="logo_poster">
+            </figure>
+            <figure class="folder_Lid">
+              <img src="./image/folder_Lid6.png" alt="folder_Lid6">
+            </figure>
+
+            <span class="lid_text">click</span>
+
+          </div>
+
+          <div class="text">
+            <h6>다 같이 놀자 멍_</h6>
+            <span>Poster</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- ///contents -->
+
+  <!-- work ilmin -->
+
+  <section class="ilmin">
+
+    <div class="titlebox" data-aos="fade-up" data-aos-duration="100">
+      <h3>Work</h3>
+      <span class="pixel p1"></span>
+      <span class="pixel p2"></span>
+      <span class="pixel p3"></span>
+      <span class="pixel p4"></span>
+    </div>
+
+    <section class="wrap rap">
+      <!-- text -->
+      <figure class="slogo">
+        <img src="./image/logo_ilmlin.png" alt="logo_ilmin">
+      </figure>
+
+      <h4>일민미술관 반응형 웹사이트</h4>
+
+      <div class="text_wrap">
+        <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+          <div class="text">
+            <h6>Overview</h6>
+            <p>기존 일민미술관 웹사이트는 반응형 사이트로 되어있지만 특정한 사이즈에서 깨지는 문제가 있고, 전시 작품을 강조하는 것이 좋을 것 같다는 생각에 리디자인을 하게 되었습니다. 작품의 색상과
+              디테일이
+              돋보이게 하기 위해 검정 배경으로 하였고, 불규칙한 레이아웃을 활용하여 몰입과 시각적 흥미를 높이고, 모든 디바이스에서 원활하게 작동할 수 있는 반응형 사이트로 제작되었습니다.</p>
+
+
+            <h6>Contribution</h6>
+            <p>개인 작업 100%</p>
+
+            <h6>Tool</h6>
+            <div class="border_all">
+              <span class="border">HTML</span>
+              <span class="border">CSS</span>
+              <span class="border">JavaScript</span>
+              <span class="border">jQuery</span>
+              <span class="border">AOS</span>
+              <span class="border">Slick</span>
+              <span class="border">Figma</span>
+              <span class="border">Photoshop</span>
+              <span class="border">illustration</span>
+              <span class="border">After effect</span>
+            </div>
+          </div>
+
+          <div class="button">
+            <a href="http://jiyoun3468.dothome.co.kr/" target="_blank" class="mainbt mainPush">Website</a>
+            <a href="https://www.figma.com/design/k5KYwigB6gsZJu5GgSP83i/%EC%9D%BC%EB%AF%BC%EB%AF%B8%EC%88%A0%EA%B4%80?node-id=0-1&t=NSufh99P8T3seP49-1"
+              target="_blank" class="subbt subPush">Wireframe</a>
+          </div>
+        </div>
+
+        <!-- photo -->
+        <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+          <img src="./image/wrok_ilmin.png" alt="wrok_ilmin">
+        </figure>
+      </div>
+    </section>
+  </section>
+  <!-- ///work ilmin -->
+
+
+
+  <!-- work jejumilk -->
+  <section class="wrap jejumilk">
+
+    <!-- text -->
+    <figure class="slogo">
+      <img src="./image/logo_jejumilk.png" alt="logo_jejumilk">
+    </figure>
+
+    <h4>제주우유 반응형 웹사이트</h4>
+
+    <div class="text_wrap">
+      <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+
+        <div class="text">
+          <h6>Overview</h6>
+          <p>기존 제주우유 웹사이트는 고정형 구조로 현대적인 느낌이 부족하여, 리디자인을 통해 개선하고자 했습니다. 제주우유의 신선함과 제주 목장의 자연 친화적 이미지를 강조하기 위해 브랜드 시그니처
+            색상을
+            사용하고, 불필요한 요소를 제거하여 심플하고 깔끔한 레이아웃을 완성했습니다. 또한, 제주의 자연과 어우러진 그래픽 요소를 추가해 자연 친화적 이미지를 한층 부각시켰습니다.</p>
+
+
+          <h6>Contribution</h6>
+          <p>개인 작업 100%</p>
+
+          <h6>Tool</h6>
+          <div class="border_all">
+            <span class="border">HTML</span>
+            <span class="border">CSS</span>
+            <span class="border">JavaScript</span>
+            <span class="border">jQuery</span>
+            <span class="border">AOS</span>
+            <span class="border">Slick</span>
+            <span class="border">Bootstrap</span>
+            <span class="border">Figma</span>
+            <span class="border">Photoshop</span>
+            <span class="border">illustration</span>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="https://jiyoun3468.github.io/jejumilk/" target="_blank" class="mainbt mainPush">Website</a>
+          <a href="https://www.figma.com/design/iYEmo7KOPURlCVeLa8Nid2/%EC%A0%9C%EC%A3%BC%EC%9A%B0%EC%9C%A0?node-id=0-1&t=NqeEwgqFfr1diHGn-1"
+            target="_blank" class="subbt subPush">Wireframe</a>
+        </div>
+      </div>
+
+      <!-- photo -->
+      <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+        <img src="./image/wrok_jejumilk.png" alt="wrok_jejumilk">
+      </figure>
+    </div>
+  </section>
+  <!-- ///work jejumilk -->
+
+
+  <!-- work myrealtrip -->
+  <section class="wrap myrealtrip">
+
+    <!-- text -->
+    <figure class="slogo">
+      <img src="./image/logo_myrealtrop.png" alt="logo_myrealtrop">
+    </figure>
+
+    <h4>마이리얼트립 반응형 웹사이트</h4>
+
+    <div class="text_wrap">
+
+      <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+        <div class="text">
+          <h6>Overview</h6>
+          <p>마이리얼트립 웹사이트는 현재 메뉴 탐색이 복잡하여 처음 방문하는 사용자에게 혼란을 줄 수 있습니다. 리디자인을 통해 사용자가 가고 싶은 여행지를 간단히 설정할 수 있도록 하여 사용자 편의를
+            더했습니다. 여행자들이 선호하는 정보순으로 레이아웃을 구성하고, 사용자 중심의 네비게이션으로 주요 콘텐츠에 쉽게 접근할 수 있도록 하였습니다. "진짜 나다운 여행" 콘셉트를 강조하며, 모든
+            기기에서
+            잘 보이도록 반응형으로 설계되었습니다.</p>
+
+          <h6>Contribution</h6>
+          <p>개인 작업 100%</p>
+
+          <h6>Tool</h6>
+          <div class="border_all">
+            <span class="border">HTML</span>
+            <span class="border">CSS</span>
+            <span class="border">JavaScript</span>
+            <span class="border">jQuery</span>
+            <span class="border">AOS</span>
+            <span class="border">Bootstrap</span>
+            <span class="border">Figma</span>
+            <span class="border">Photoshop</span>
+            <span class="border">illustration</span>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="https://jiyoun3468.github.io/myrealtrip/" target="_blank" class="mainbt mainPush">Website</a>
+          <a href="https://www.figma.com/design/9sKg3Phy0Q26KjWd85xkx4/%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD?node-id=0-1&t=eemCXxC0R0nKTYzs-1"
+            target="_blank" class="subbt subPush">Wireframe</a>
+        </div>
+
+      </div>
+
+      <!-- photo -->
+      <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+        <img src="./image/wrok_Myrealtrip.png" alt="wrok_jejumilk">
+      </figure>
+    </div>
+  </section>
+  <!-- ///work myrealtrip -->
+
+  <!-- work jellyteak -->
+  <section class="wrap jellyteak">
+    <figure class="slogo">
+      <img src="./image/logo_jellyteak.png" alt="logo_jellyteak">
+    </figure>
+
+    <h4>젤리티크 cafe24 사이트 (창작)</h4>
+
+    <div class="text_wrap">
+      <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+        <div class="text">
+          <h6>Overview</h6>
+          <p>‘젤리티크’ 는 젤 네일 팁 쇼핑몰로서 젤 네일의 특성과 매력을 잘 표현하기 위해 젤=젤리, 팁=티크를 합쳐 기억에 남는 인상을 줄 수 있는 브랜드 이름으로 만들었습니다. 여성 고객을 주요
+            티겟으로 설정하고 파스텔 계열의 분홍색을 선정하여 부드럽고 따뜻한 느낌을 주었고, 직관적이고 깔끔한 레이아웃을 통해 사용자들이 쉽게 탐색할 수 있도록 구성하였습니다. cafe24의 코드를
+            활용하여
+            다양한 기능을 손쉽게 구현할 수 있으며, 유지보수도 역시 효율적으로 관리할 수 있습니다.</p>
+
+
+          <h6>Contribution</h6>
+          <p>개인 작업 100%</p>
+
+          <h6>Tool</h6>
+          <div class="border_all">
+            <span class="border">cafe24</span>
+            <span class="border">Photoshop</span>
+            <span class="border">illustration</span>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="https://jiyoun3468.cafe24.com/" target="_blank" class="mainbt mainPush">Website</a>
+          <!-- <a href="#" class="subbt subPush">Wireframe</a> -->
+        </div>
+      </div>
+
+      <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+        <img src="./image/wrok_jelly.png" alt="wrok_jelly">
+      </figure>
+    </div>
+  </section>
+  <!-- ///work jellyteak -->
+
+
+  <!-- wrok arlly -->
+  <section class="wrap arlly1">
+
+    <!-- text -->
+    <figure class="slogo">
+      <img src="./image/logo_ally.png" alt="logo_ally">
+    </figure>
+
+    <h4>건강알리 브랜딩 디자인 (창작)</h4>
+
+    <div class="text_wrap">
+
+      <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+        <div class="text">
+          <h6>Overview</h6>
+          <p>건강에 대한 관심이 높아짐에 따라 편리하고 다양한 헬스 케어 어플이 많이 출시되고 있습니다. 그러나 가족 간에 건강 정보를 연동하여 보다 스마트하게 건강을 관리하고 정확한 정보를 제공하는
+            어플이
+            부족하다는 필요를 느꼈습니다. 이러한 바람을 반영하여 탄생한 것이 바로 ‘함께 걸어가는 건강한 길, 건강알리’입니다.</p>
+
+          <h6>Contribution</h6>
+          <p>개인 작업 100%</p>
+
+          <h6>Tool</h6>
+          <div class="border_all">
+            <div class="border_all">
+              <span class="border">Photoshop</span>
+              <span class="border">illustration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="./image/brand design.pdf" target="_blank" class="mainbt mainPush">Project view</a>
+        </div>
+      </div>
+
+      <!-- photo -->
+      <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+        <img src="./image/wrok_brand.png" alt="wrok_brand">
+      </figure>
+    </div>
+  </section>
+  <!-- ///wrok arlly -->
+
+
+  <!-- wrok uiux -->
+  <section class="wrap arlly2">
+
+    <!-- text -->
+    <figure class="slogo">
+      <img src="./image/logo_ally.png" alt="logo_ally">
+    </figure>
+
+    <h4>건강알리 UIUX (창작)</h4>
+
+    <div class="text_wrap">
+
+      <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+        <div class="text">
+          <h6>Overview</h6>
+          <p>브랜딩 디자인 설정 후, UI/UX를 설계하였습니다. 리서치와 인터뷰를 통해 사용자들이 겪고 있는 문제를 파악하고, 30대~60대 자녀와 부모를 주요 타겟으로 설정하였습니다. 특히 60대
+            사용자들이 직관적이고 간편한 인터페이스를 통해 모든 기능을 쉽게 접근하고 사용할 수 있도록 디자인하였습니다. 또한, 사용자의 건강 상태와 선호도에 맞춘 맞춤형 건강 관리 피드백 및 추천 서비스를
+            제공하며, 자녀와 부모님의 건강 정보를 통합적으로 관리하고 서로 연동되도록 설계하여 UX 전략을 수립하였습니다.</p>
+
+          <h6>Contribution</h6>
+          <p>개인 작업 100%</p>
+
+          <h6>Tool</h6>
+          <div class="border_all">
+            <span class="border">Figma</span>
+            <span class="border">Photoshop</span>
+            <span class="border">illustration</span>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="https://www.figma.com/proto/ZXIFI4mF7jzwvBy8hcSdFO/UIUX-%EA%B1%B4%EA%B0%95%EC%95%8C%EB%A6%AC-(%EC%B0%BD%EC%9E%91)?page-id=0%3A1&node-id=45-257&viewport=-376%2C559%2C0.14&t=4gm0hC43Z7YZp3Oj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3&show-proto-sidebar=1"
+            target="_blank" class="mainbt mainPush">Figma</a>
+          <a href="https://www.figma.com/proto/ZXIFI4mF7jzwvBy8hcSdFO/UIUX-%EA%B1%B4%EA%B0%95%EC%95%8C%EB%A6%AC-(%EC%B0%BD%EC%9E%91)?page-id=705%3A17879&node-id=705-17880&viewport=968%2C477%2C0.04&t=sDkVmaD1VrjIdyd7-1&scaling=min-zoom&content-scaling=fixed"
+            target="_blank" class="subbt subPush">Wireframe</a>
+        </div>
+      </div>
+
+      <!-- photo -->
+      <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+        <img src="./image/wrok_uiux.png" alt="wrok_uiux">
+      </figure>
+    </div>
+  </section>
+  <!-- ///wrok uiux -->
+
+
+  <!-- work poster -->
+  <section class="wrap poster">
+
+    <!-- text -->
+    <figure class="slogo">
+      <img src="./image/logo_poster.png" alt="logo_poster">
+    </figure>
+
+    <h4>Poster</h4>
+
+    <div class="text_wrap">
+
+      <div class="text_all" data-aos="fade-up" data-aos-duration="200">
+        <div class="text">
+          <h6>Overview</h6>
+          <p>‘다 같이 놀자 멍’은 반려동물과 소중한 시간을 함께 나누는 행사포스터입니다. 강아지가 바라보는 시선을 비비드한 색상으로 선글라스에 표현하여 강아지가 느끼는 즐거움을 담았습니다. 반려견과
+            반려인이
+            함께하는 행복한 순간을 시각적으로 표현하고, 이벤트에 대한 기대감을 높이는 것을 목표로 하였습니다. </p>
+
+          <h6>Contribution</h6>
+          <p>개인 작업 100%</p>
+
+          <h6>Tool</h6>
+          <div class="border_all">
+            <span class="border">Photoshop</span>
+            <span class="border">illustration</span>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="./image/poster.pdf" target="_blank" class="mainbt mainPush">Project view</a>
+        </div>
+      </div>
+
+      <!-- photo -->
+      <figure class="photo" data-aos="fade-up" data-aos-duration="400">
+        <img src="./image/wrok_poster.png" alt="wrok_poster">
+      </figure>
+    </div>
+  </section>
+  <!-- ///work poster -->
+
 
   <!-- footer -->
   <footer>
-    <div class="footer_inner">
-      <p>ILMIN</p>
-      <div class="line"></div>
-      <p>ART</p>
-      <div class="line"></div>
-      <p>MUSEUM</p>
-      <div class="line"></div>
 
-      <ul class="f_menu">
-        <li>
-          <a href="#">일민 스토리</a>
-          <ul class="f_sub">
-            <li><a href="#">일민미술관</a></li>
-            <li><a href="#">일민문화재단</a></li>
-            <li><a href="#">공지사항</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">전시 및 관람</a>
-          <ul class="f_sub">
-            <li><a href="#">전시작품</a></li>
-            <li><a href="#">관람 안내</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">아티스트</a>
-          <ul class="f_sub">
-            <li><a href="#">프로그램</a></li>
-            <li><a href="#">아티스트 이야기</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">IMA멤버십</a>
-        </li>
-        <li>
-          <a href="#">디자인 스토어</a>
-          <ul class="f_sub">
-            <li><a href="#">베스트</a></li>
-            <li><a href="#">신상품</a></li>
-            <li><a href="#">아트상품</a></li>
-            <li><a href="#">출판물</a></li>
-          </ul>
-        </li>
-      </ul>
+    <div class="main_background_wrap">
 
-      <div class="footer_bottom">
-        <ul>
-          <li>대표자명 : 김태령 (재)일민문화재단</li>
-          <li>서울특별시 종로구 세종대로 152</li>
-          <li>사업자번호 : 102-82-07760</li>
-          <li>Tel : 01-2020-2050</li>
-          <li>통신판매업신고번호 : 2016-서울종로-0667</li>
-        </ul>
+      <div class="top_bar">
+        <div class="top_left">
+          <img src="./image/top_bar_icon.png" alt="top_bar_icon">
+          <span class="text text1">Finder</span>
+          <span class="text">File</span>
+          <span class="text">Edit</span>
+          <span class="text">View</span>
+          <span class="text">Go</span>
+          <span class="text">Window</span>
+          <span class="text">Help</span>
+        </div>
 
-        <div class="footer_right">
-          <div class="f_text">
-            <a href="#">이용약관</a>
-            <a href="#">교환 및 환불 규정</a>
-            <a href="#">개인정보처리방침</a>
-          </div>
-
-          <div class="sns">
-            <a href="#">
-              <img src="../image/instar_icon.svg" alt="instar_icon">
-            </a>
-            <a href="#">
-              <img src="../image/Twitter_icon.svg" alt="Twitter_icon">
-            </a>
-            <a href="#">
-              <img src="../image/youtube_icon.svg" alt="youtube_icon">
-            </a>
-            <a href="#">
-              <img src="../image/mail_icon.svg" alt="mail_icon">
-            </a>
-          </div>
+        <div class="top_rigth">
+          <img src="./image/top_bar_icon2.png" alt="top_bar_icon2">
+          <img src="./image/top_bar_icon3.png" alt="top_bar_icon3">
+          <img src="./image/top_bar_icon4.png" alt="top_bar_icon4">
+          <img src="./image/top_bar_icon5.png" alt="top_bar_icon5">
+          <span class="text">Mon Jun 7</span>
+          <span class="text">9:41 AM</span>
         </div>
       </div>
+
+      <div class="bottom_bar">
+        <img src="./image/bottom_bar_icon1.png" alt="bottom_bar_icon1">
+        <img src="./image/bottom_bar_icon2.png" alt="bottom_bar_icon2">
+        <img src="./image/bottom_bar_icon3.png" alt="bottom_bar_icon3">
+        <img src="./image/bottom_bar_icon4.png" alt="bottom_bar_icon4">
+        <img src="./image/bottom_bar_icon5.png" alt="bottom_bar_icon5">
+        <img src="./image/bottom_bar_icon6.png" alt="bottom_bar_icon6">
+        <img src="./image/bottom_bar_icon7.png" alt="bottom_bar_icon7">
+        <img src="./image/bottom_bar_icon8.png" alt="bottom_bar_icon8">
+        <img src="./image/bottom_bar_icon9.png" alt="bottom_bar_icon9">
+        <img src="./image/bottom_bar_icon10.png" alt="bottom_bar_icon10">
+        <img src="./image/bottom_bar_icon11.png" alt="bottom_bar_icon11">
+        <img src="./image/bottom_bar_icon12.png" alt="bottom_bar_icon12">
+        <img src="./image/bottom_bar_icon13.png" alt="bottom_bar_icon13">
+        <img src="./image/bottom_bar_icon14.png" alt="bottom_bar_icon14">
+        <img src="./image/bottom_bar_icon15.png" alt="bottom_bar_icon15">
+        <img src="./image/bottom_bar_icon16.png" alt="bottom_bar_icon16">
+        <img src="./image/bottom_bar_icon17.png" alt="bottom_bar_icon17">
+      </div>
+
+
+
+      <div class="main_background">
+        <nav>
+          <div class="circle_all">
+            <div class="circle red"></div>
+            <div class="circle yello"></div>
+            <div class="circle green"></div>
+          </div>
+
+        </nav>
+
+
+        <div class="footer_inner" data-aos="fade-up" data-aos-duration="200">
+          <h3>긴 글 읽어주셔서 감사합니다!</h3>
+          <h2>THANK YOU!</h2>
+
+          <div class="cursor green">
+            <figure>
+              <img src="./image/Cursor_green_icon.png" alt="Cursor_green_icon">
+            </figure>
+            <h5>thggh6469@naver.com</h5>
+          </div>
+          <div class="cursor yello">
+            <figure>
+              <img src="./image/Cursor_yello_icon.png" alt="Cursor_yello_icon">
+            </figure>
+            <h5>010-9864-6469</h5>
+          </div>
+        </div>
+
+      </div>
     </div>
+
+
+
+
   </footer>
-  <!-- ////footer -->
+  <!-- ///footer -->
+
 </body>
 
 </html>
